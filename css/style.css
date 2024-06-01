@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    align-items: center;
+}
+.first{
+    flex: 1; /* 각 섹션이 동일한 너비를 가지도록 설정 */
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.third{
+    justify-content: flex-end;
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    border: none;
+}
